@@ -90,7 +90,7 @@ namespace Example_SRTFileEditor
 
 
 
-         public static void ShowErrorMessage(string message)
+        public static void ShowErrorMessage(string message)
         {
             WriteColor("ERROR: ", ConsoleColor.Red);
             Console.WriteLine(message);
