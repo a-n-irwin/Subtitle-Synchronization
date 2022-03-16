@@ -29,7 +29,7 @@ namespace Example_SRTFileEditor
             }
 
 
-            // if the file could not be found from the path, an exception is thrown when creating the reader
+            // if the file could not be found from the path, an exception is thrown when setting the path
             try
             {
                 reader.Path = path;
