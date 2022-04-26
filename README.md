@@ -22,4 +22,5 @@ Hence there are two major weaknesses:
 1. The user has to determine the magnitude of adjustment
 2. The software is built under the assumption that the subtitle:
    a. Follows the SRT file standard
-   b. The time interval each caption takes to be displayed is appropriate.
+   b. The time interval each caption takes to be displayed(that is, the time it spends
+      on screen before it goes off) is appropriate.
