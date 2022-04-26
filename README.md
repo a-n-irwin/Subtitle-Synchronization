@@ -20,9 +20,9 @@ To understand the weakness of this software you have to imagine the subtitle fil
 being a straight line with points at intervals, matched against the words being said in
 the video. This software simply adjusts that line to properly match the words of the video
 but the amount of adjustment forward or backwards is as per your judgement. 
-Hence there are two major weaknesses:
+Hence there are two major weaknesses:  
 **1.** The user has to determine the magnitude of adjustment
 **2.** The software is built under the assumption that the subtitle:  
-   **a.** Follows the SRT file standard  
-   **b.** The time interval each caption takes to be displayed(that is, the time it spends
+  &emsp;   **a.** Follows the SRT file standard  
+  &emsp;   **b.** The time interval each caption takes to be displayed(that is, the time it spends
       on screen before it goes off) is appropriate.
