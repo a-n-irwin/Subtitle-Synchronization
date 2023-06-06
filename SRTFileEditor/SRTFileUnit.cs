@@ -11,10 +11,7 @@ namespace SRTFileEditor
     internal class SRTFileUnit
     {
         // Retrieves the innder dictionary which stores the items. It can't be modified through this property
-        public SortedDictionary<int, string> Items
-        {
-            get; private set;
-        }
+        public SortedDictionary<int, string> Items { get; private set; }
 
         // Constructs an SRTFileUnit object with empty
         public SRTFileUnit()
