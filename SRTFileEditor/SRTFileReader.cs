@@ -8,13 +8,8 @@ namespace SRTFileEditor
     {
         // the subtitle file would be read in units 
         private SRTFileUnit _unit;
-
-
-        // path to the srt file
         private string _path;
 
-
-        // get or set the path
         public string Path
         {
             set
@@ -31,28 +26,21 @@ namespace SRTFileEditor
             get => _path;
         }
 
-
-
         // open the file for reading
         FileStream     _file;
         StreamReader  _reader;
 
-        // open the output file for writing
         FileStream    _outFile;
         StreamWriter  _writer;
 
 
 
-        // Constructs a default SRTFileReader object. It will have an empty file path
         public SRTFileReader()
         {
             _path = string.Empty;
             _unit = new SRTFileUnit();
         }
-
         
-
-
         // Constructs an SRTFileReader object with a file path
         public SRTFileReader(string path)
         {
@@ -63,13 +51,9 @@ namespace SRTFileEditor
             // guarantee we can find the file before proceeding
             if (!File.Exists(path)) throw new FileNotFoundException();
 
-
             _path = path;
             _unit = new SRTFileUnit();
         }
-
-
-
        
         // Adjusts the start and end time of the SRT file by the amount of milliseconds.A positive value adjusts
         // the start and end time to the right, and a negative value adjusts it to the left
@@ -81,11 +65,9 @@ namespace SRTFileEditor
             _outFile = new FileStream(_path + ".output.srt", FileMode.Create, FileAccess.Write);
             _writer = new StreamWriter(_outFile);
 
-
             // to store each line read from the srt file 
             string line;
             int counter = 0;
-
 
             // while not at the end of the file
             while ((line = _reader.ReadLine()) != null)

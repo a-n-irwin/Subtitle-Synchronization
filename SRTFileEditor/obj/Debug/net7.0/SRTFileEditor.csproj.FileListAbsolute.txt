@@ -1,0 +1,15 @@
+C:\Users\user\Development\CS\SRTFileEditor\SRTFileEditor\bin\Debug\net7.0\SRTFileEditor.exe
+C:\Users\user\Development\CS\SRTFileEditor\SRTFileEditor\bin\Debug\net7.0\SRTFileEditor.deps.json
+C:\Users\user\Development\CS\SRTFileEditor\SRTFileEditor\bin\Debug\net7.0\SRTFileEditor.runtimeconfig.json
+C:\Users\user\Development\CS\SRTFileEditor\SRTFileEditor\bin\Debug\net7.0\SRTFileEditor.dll
+C:\Users\user\Development\CS\SRTFileEditor\SRTFileEditor\bin\Debug\net7.0\SRTFileEditor.pdb
+C:\Users\user\Development\CS\SRTFileEditor\SRTFileEditor\obj\Debug\net7.0\SRTFileEditor.csproj.AssemblyReference.cache
+C:\Users\user\Development\CS\SRTFileEditor\SRTFileEditor\obj\Debug\net7.0\SRTFileEditor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Development\CS\SRTFileEditor\SRTFileEditor\obj\Debug\net7.0\SRTFileEditor.AssemblyInfoInputs.cache
+C:\Users\user\Development\CS\SRTFileEditor\SRTFileEditor\obj\Debug\net7.0\SRTFileEditor.AssemblyInfo.cs
+C:\Users\user\Development\CS\SRTFileEditor\SRTFileEditor\obj\Debug\net7.0\SRTFileEditor.csproj.CoreCompileInputs.cache
+C:\Users\user\Development\CS\SRTFileEditor\SRTFileEditor\obj\Debug\net7.0\SRTFileEditor.dll
+C:\Users\user\Development\CS\SRTFileEditor\SRTFileEditor\obj\Debug\net7.0\refint\SRTFileEditor.dll
+C:\Users\user\Development\CS\SRTFileEditor\SRTFileEditor\obj\Debug\net7.0\SRTFileEditor.pdb
+C:\Users\user\Development\CS\SRTFileEditor\SRTFileEditor\obj\Debug\net7.0\SRTFileEditor.genruntimeconfig.cache
+C:\Users\user\Development\CS\SRTFileEditor\SRTFileEditor\obj\Debug\net7.0\ref\SRTFileEditor.dll
