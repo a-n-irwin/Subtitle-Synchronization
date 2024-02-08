@@ -10,12 +10,12 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/SRTFileEditor/bin/Debug/net7.0/SRTFileEditor.dll",
+            "program": "${workspaceFolder}/bin/Debug/net7.0/SRTFileEditor.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/SRTFileEditor",
+            "cwd": "${workspaceFolder}",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "externalTerminal",
-            "stopAtEntry": false 
+            "stopAtEntry": false
         },
         {
             "name": ".NET Core Attach",

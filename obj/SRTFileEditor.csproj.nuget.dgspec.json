@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Development\\CS\\SRTFileEditor\\SRTFileEditor\\SRTFileEditor.csproj": {}
+    "C:\\Users\\user\\Development\\CSharp\\.NET Core\\SRTFileEditor\\SRTFileEditor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Development\\CS\\SRTFileEditor\\SRTFileEditor\\SRTFileEditor.csproj": {
+    "C:\\Users\\user\\Development\\CSharp\\.NET Core\\SRTFileEditor\\SRTFileEditor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Development\\CS\\SRTFileEditor\\SRTFileEditor\\SRTFileEditor.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Development\\CSharp\\.NET Core\\SRTFileEditor\\SRTFileEditor.csproj",
         "projectName": "SRTFileEditor",
-        "projectPath": "C:\\Users\\user\\Development\\CS\\SRTFileEditor\\SRTFileEditor\\SRTFileEditor.csproj",
+        "projectPath": "C:\\Users\\user\\Development\\CSharp\\.NET Core\\SRTFileEditor\\SRTFileEditor.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Development\\CS\\SRTFileEditor\\SRTFileEditor\\obj\\",
+        "outputPath": "C:\\Users\\user\\Development\\CSharp\\.NET Core\\SRTFileEditor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }
