@@ -27,11 +27,11 @@ namespace SRTFileEditor
         }
 
         // open the file for reading
-        FileStream     _file;
-        StreamReader  _reader;
+        FileStream _file;
+        StreamReader _reader;
 
-        FileStream    _outFile;
-        StreamWriter  _writer;
+        FileStream _outFile;
+        StreamWriter _writer;
 
 
 
@@ -40,7 +40,7 @@ namespace SRTFileEditor
             _path = string.Empty;
             _unit = new SRTFileUnit();
         }
-        
+
         // Constructs an SRTFileReader object with a file path
         public SRTFileReader(string path)
         {
@@ -54,7 +54,7 @@ namespace SRTFileEditor
             _path = path;
             _unit = new SRTFileUnit();
         }
-       
+
         // Adjusts the start and end time of the SRT file by the amount of milliseconds.A positive value adjusts
         // the start and end time to the right, and a negative value adjusts it to the left
         public void AdjustTime(int milliseconds)
@@ -100,7 +100,7 @@ namespace SRTFileEditor
                     // At the end of SRT files, there are usually multiple empty lines. The below check is meant to prevent the writing of an empty unit. Since we reset the counter
                     // to 0 after writing a unit, then if the counter is still 0 on the next write operation then we haven't read any new units. the continue statement is used instead
                     // of return or break to give the while loop more chances to check for more units (in case there are more than one lines between units)
-                    if (counter == 0) continue; 
+                    if (counter == 0) continue;
 
                     // reduce the start and end time by the amount of milliseconds
                     _unit.SetStartTimeInMilliseconds(_unit.StartTimeAsMilliseconds() + milliseconds);
