@@ -1,4 +1,4 @@
-# SRTFileEditor #
+# Version 1.00: SRTFileEditor #
 
 
 
